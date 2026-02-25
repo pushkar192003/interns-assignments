@@ -14,7 +14,7 @@ def file_parsing(ip,op):
             exp=line.split('=')[0].strip()
             if exp:
                 result= evaluate_expression(exp)
-                print(f"{exp} = {result}")
+              # for debug  print(f"{exp} = {result}")
                 output.write(f"{exp} = {result}\n")
 if __name__ =='__main__':
 
